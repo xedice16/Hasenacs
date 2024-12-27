@@ -1,0 +1,292 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.footer {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #5d2d2c;
+    background-position: center;
+    height: 390px;
+    z-index: -9999999999999;
+    background-image: url("https://elementor-kits-02.nicdark.com/perfume-wordpress-elementor-kit/wp-content/uploads/sites/4/2024/01/Handdrawn-Flower-Vol.3-05.png");
+  }
+  
+  .footer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    height: 100%;
+    background-color: #643736d4;
+  }
+  .font-cormor{
+    
+    font-family: "Cormorant Garamond", serif;
+  }
+.p-footer{
+    font-size: 42px;
+  }
+  .footer-top {
+    align-items: center;
+    display: flex;
+    z-index: 999999999 !important;
+    justify-content: space-between;
+  }
+  
+  .footer-menu, .footer-social, .footer-info {
+    flex: 1;
+    margin-bottom: 30px;
+    color: white;
+    z-index: 99999999999999999999999;
+  }
+  
+  .footer-menu p, .footer-social p, .footer-info p {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+  }
+  
+  .footer-menu ul, .footer-social ul, .footer-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-menu li, .footer-social li, .footer-info li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-social img {
+    max-width: 150px;
+  }
+  
+  .footer-social ul {
+    display: flex;
+  }
+  
+  .footer-social li {
+    margin-right: 15px;
+  }
+  .container{
+    padding-top: 99px;
+  }
+  
+  .footer-info ul li::before {
+    content: "\2022";
+    color: #ffffff;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  .footer-info{
+    text-align: right;
+  }
+  .footer-social img {
+    margin-left: 60px ;
+    max-width: 246px;
+  } */
+  .footer .footer-social p {
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.footer .social-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer .social-links a {
+    color: #f8c8d1;
+    text-decoration: none;
+}
+
+.footer .social-links a:hover {
+    color: #fff;
+}
+
+/* Footer əsas stili */
+.footer {
+  background-color: #111; /* Tünd arxa plan */
+  color: #fff; /* Yalnız ağ yazılar */
+  padding: 60px 0;
+  font-family: 'Cormorant Garamond', serif; /* Moda üslubuna uyğun şrift */
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://your-image-link.com/image.jpg') no-repeat center center / cover;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.footer-menu,
+.footer-info {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-social {
+  flex: 2;
+  text-align: center;
+}
+
+.footer-menu p,
+.footer-info p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #f1f1f1; /* Ağ rəngli başlıq */
+}
+
+.footer-menu ul,
+.footer-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-menu li,
+.footer-info li {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.footer-social img {
+  max-width: 200px;
+  margin-bottom: 20px;
+  filter: brightness(0) invert(1); /* Loqonu ağ rəngə çevirir */
+}
+
+.footer-social ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-social li {
+  list-style: none;
+}
+
+.footer-social a {
+  color: #f1f1f1;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #ff7f50; /* Hoverda narıncı rəng */
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #f1f1f1;
+  margin-top: 30px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-info {
+  text-align: right;
+}
+
+/* Flexbox ilə tam yerləşdirmə */
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-social {
+  text-align: center;
+  position: relative;
+}
+
+.footer-social img {
+  max-width: 200px;
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Hover zamanı yavaş animasiya */
+  filter: brightness(0) invert(1); /* Loqo üçün ağ rəng */
+  margin-bottom: 20px;
+}
+
+/* Hover effektləri */
+.footer-social img:hover {
+  transform: scale(1.1); /* Şəkilin böyüməsi */
+  opacity: 0.8; /* Azacıq şəffaflıq */
+}
+
+/* Sosial media linkləri üçün əlavə stil */
+.footer-social ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 15px;
+}
+
+.footer-social li {
+  list-style: none;
+}
+
+.footer-social a {
+  color: #f1f1f1; /* Ağ rəng */
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Hover zamanı sosial media iconlarının rəng dəyişməsi */
+.footer-social a:hover {
+  color: #ff7f50; /* Narıncı rəng */
+}
+
+/* İconların hover zamanı hərəkət etməsi */
+.footer-social a:hover img {
+  transform: scale(1.2); /* İkonun böyüməsi */
+  transition: transform 0.3s ease;
+}
+
+/* Mobile üçün uyğunlaşdırma */
+@media (max-width: 768px) {
+  .footer-top {
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .footer-menu,
+  .footer-info {
+      text-align: center;
+  }
+}

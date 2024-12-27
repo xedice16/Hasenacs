@@ -1,0 +1,113 @@
+.blog-card-title{
+    font-size: 14px;
+    color: #592B2A !important;
+    
+}
+/* .filter  ul{
+  display: flex;
+    flex-wrap: wrap;
+} */
+.card img{
+  object-fit: cover;
+}
+.blog-all-page .blog-cards-all {
+  margin-top: 50px !important;
+  align-items: flex-start !important;
+}
+.blog-card-title.h5{
+  font-size: 13px;
+}
+.detail-blog{
+  color: #592B2A !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+.card-text{
+  border-color: #f4f4f4;
+}
+p.card-text{
+  font-size: 16px;
+  text-align: left;
+text-decoration: none;
+padding: 0 !important;
+}
+.card-1{
+  height: 318px !important;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.filter ul li:hover{
+  color:#592B2A;
+  font-weight: 900;
+  text-decoration: underline;
+}
+/* .blog-all-page .blog-cards-all
+    {
+      margin-top: 115px !important;
+      
+    } */
+    .error-blog{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .nav-links{
+      transition: 0.3s;
+    }
+    .selected-item:after {
+      content: "";
+        display: block;
+        height: 1px;
+        width: 0;
+        background: transparent;
+      }
+      
+      .selected-item:after {
+        width: 100%;
+        background: #592B2A;
+      }
+      .nav-links {
+        color: #000000;
+        text-decoration: none;
+        padding: 0.5rem 0;
+        height: 100%;
+        border-bottom: 3px solid transparent;
+      }
+      .li-tag{
+        cursor: pointer;
+      }
+      .b-0{
+        border-radius: 0;
+      } 
+      .blog-cards-all .card-body{
+        /* display: flex; */
+        font-size: 18px;
+        font-weight: 400;
+        color: #000;
+      }
+      
+      
+      .blog-all-page {
+        padding: 20px;
+      }
+      
+      .blog-cards-all {
+        align-items: center;
+      }
+      
+      .filter ul li{
+        transition: 0.5s;
+}
+
+.filter {
+  margin-bottom: 20px;
+  order: 1; 
+  width: 14%;
+}
+.blog-img-div{
+  height: 294px;
+}
+.blog-all-page .card{
+  height: 426px !important;
+}

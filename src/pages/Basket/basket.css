@@ -1,0 +1,144 @@
+.container-card li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .container-card button {
+    margin-left: 5px;
+    color: #592B2A;
+    border-color: #592B2A;
+    padding: 3px 8px;
+    cursor: pointer;
+  }
+  
+  .container-card button:hover {
+    background-color: #592B2A;
+    color: #fff;
+  }
+  
+  .container-card {/* General Container Card Styles */
+    .container-card {
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 25px;
+        border: 1px solid #592B2A; /* Deep red for the border */
+        border-radius: 15px; /* Softer, elegant rounded corners */
+        background-color: #fff; /* White background for contrast */
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+    }
+    
+    /* Container Card Hover Effect */
+    .container-card:hover {
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+    }
+    
+    /* Title Styles */
+    .container-card h1 {
+        font-family: 'Poppins', sans-serif; /* Modern sans-serif font */
+        font-size: 32px;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 700; /* Bold title */
+        letter-spacing: 1px; /* Slight spacing for elegance */
+    }
+    
+    /* List Items Styling */
+    .container-card li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 15px; /* Increased spacing between items */
+        padding: 12px;
+        border-bottom: 1px solid #eee; /* Light border for subtle separation */
+        font-size: 18px;
+        color: #333; /* Dark text for readability */
+        font-weight: 500;
+        transition: background-color 0.3s ease; /* Smooth background transition */
+    }
+    
+    .container-card li:hover {
+        background-color: #f0f0f0; /* Light hover background for interactivity */
+    }
+    
+    /* Button Styling */
+    .container-card button {
+        margin-left: 10px;
+        padding: 8px 15px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: transparent;
+        color: #592B2A; /* Deep red for button text */
+        border: 2px solid #592B2A; /* Deep red border */
+        border-radius: 30px; /* Rounded button shape */
+        cursor: pointer;
+        transition: all 0.3s ease; /* Smooth transition for button effects */
+    }
+    
+    /* Button Hover Effect */
+    .container-card button:hover {
+        background-color: #592B2A; /* Deep red background on hover */
+        color: #fff; /* White text when hovered */
+        transform: translateY(-3px); /* Slight lift effect */
+    }
+    
+    /* Paragraph Style */
+    .container-card p {
+        font-size: 18px;
+        font-weight: bold;
+        color: #555; /* Slightly softer gray for text */
+        margin-top: 25px; /* More spacing above the paragraph */
+        text-align: center;
+        line-height: 1.5;
+    }
+    
+    /* Update Button Specific Styling */
+    .update {
+        width: 30%;
+        margin-top: 20px; /* Space above the update button */
+        align-self: flex-start; /* Align update button to the left */
+        background-color: #592B2A; /* Consistent button color */
+        color: white;
+        border: none;
+        border-radius: 30px; /* Rounded update button */
+        padding: 12px;
+        cursor: pointer;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: all 0.3s ease;
+    }
+    
+    .update:hover {
+        background-color: #3d1f1c; /* Darker red shade for hover */
+        transform: translateY(-2px); /* Subtle lift effect */
+    }
+    
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #592B2A;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .container-card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container-card p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .update{
+    width: 30%;
+  }
+  

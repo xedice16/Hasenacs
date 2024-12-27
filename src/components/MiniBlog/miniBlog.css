@@ -1,0 +1,98 @@
+
+.miniblog {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black; 
+    color: white;
+    font-family: 'Arial', sans-serif; 
+    background-image: url('../../photos/photo9.jpg');
+  }
+  
+  .slide {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    gap: 10px; 
+   background-color: color-mix(in srgb, black 60%, rgb(117, 38, 38) 50%);
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  } 
+  
+  
+  .slider-content {
+    max-width: 700px; 
+    font-family: 'Georgia', serif;
+  }
+  
+  .red {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 10px;
+    padding-left: 60px;
+    text-transform: uppercase;  
+  }
+  
+  .author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px; 
+  }
+  
+  .author-info {
+    font-family: 'Times New Roman', serif; 
+  }
+  
+  .font-cookie {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: 'Times New Roman', serif; 
+  }
+  
+  .collection1, .collection2, .collection3{
+    width: 400px; 
+    height: 400px; 
+    border-radius: 8px;
+    object-fit: cover; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding-right: 50px;
+  }
+  .collection4{
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+  }
+  
+  .author-img {
+    width: 140px; /* Profil şəkli ölçüsü daha da böyüdülür */
+    height: 140px;
+    border-radius: 50%; /* Profil şəklini yuvarlaq et */
+    object-fit: cover; /* Şəkili uyğun ölçüdə saxla */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Profil şəkli üçün kölgə əlavə et */
+  }
+  
+  /* Mobil uyğunlaşdırma */
+  @media (max-width: 768px) {
+    .slide {
+      flex-direction: column; /* Şəkil və mətni şaquli düz */
+      text-align: center; /* Mətnin mərkəzləşdirilməsi */
+    }
+  
+    .collection1, .collection2, .collection3 {
+      width: 100%; /* Şəkilləri tam genişlikdə göstər */
+      margin-bottom: 10px;
+    }
+  
+    .author-img {
+      width: 120px; /* Mobil üçün daha böyük profil şəkli */
+      height: 120px;
+    }
+  }
+  

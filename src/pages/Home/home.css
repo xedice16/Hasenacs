@@ -1,0 +1,237 @@
+/* 
+  .mini-about {
+     background-color: rgb(19, 18, 18);
+   
+  }
+  
+  .image-container {
+      width: 100%;
+      background-size: cover;
+      background-position: center;
+      background-image: url(../../photos/photo6.jpg);
+      height: 100vh;
+}
+.content-button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 40%;
+    padding-right: 10%;
+}
+.beautiful-button {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to bottom, #19191c, #37635b);
+    color: white;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 28px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    animation: button-shimmer 2s infinite;
+    transition: all 0.3s ease-in-out;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  .beautiful-button:hover {
+    background: linear-gradient(to bottom, #19191c, #37635b);
+    animation: button-particles 1s ease-in-out infinite;
+    transform: translateY(-2px);
+  }
+  
+  .beautiful-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  @keyframes button-shimmer {
+    0% {
+      background-position: left top;
+    }
+  
+    100% {
+      background-position: right bottom;
+    }
+  }
+  
+  @keyframes button-particles {
+    0% {
+      background-position: left top;
+    }
+  
+    100% {
+      background-position: right bottom;
+    }
+  }
+
+  
+   */
+   /* Default styles */
+.mini-about {
+  background-color: rgb(19, 18, 18);
+}
+
+.image-container {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../photos/photo6.jpg);
+  height: 100vh;
+}
+
+.content-button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-top: 40%;
+  padding-right: 10%;
+}
+
+.beautiful-button {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(to bottom, #19191c, #37635b);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 28px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  animation: button-shimmer 2s infinite;
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+.beautiful-button:hover {
+  background: linear-gradient(to bottom, #19191c, #37635b);
+  animation: button-particles 1s ease-in-out infinite;
+  transform: translateY(-2px);
+}
+
+.beautiful-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes button-shimmer {
+  0% {
+      background-position: left top;
+  }
+
+  100% {
+      background-position: right bottom;
+  }
+}
+
+@keyframes button-particles {
+  0% {
+      background-position: left top;
+  }
+
+  100% {
+      background-position: right bottom;
+  }
+}
+
+/* Responsive design for different screen sizes */
+
+/* 300px - 600px (mobile) */
+@media (max-width: 600px) {
+  .image-container {
+      height: 50vh; /* Reduce the height for smaller screens */
+  }
+  .content-button {
+      padding-top: 50%;
+      padding-right: 5%;
+  }
+  .beautiful-button {
+      font-size: 14px;
+      padding: 12px 24px;
+  }
+}
+
+/* 600px - 900px (tablets) */
+@media (min-width: 601px) and (max-width: 900px) {
+  .image-container {
+      height: 60vh; /* Adjust height for medium screens */
+  }
+  .content-button {
+      padding-top: 45%;
+      padding-right: 7%;
+  }
+  .beautiful-button {
+      font-size: 16px;
+      padding: 12px 26px;
+  }
+}
+
+/* 900px - 1200px (small desktops) */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .image-container {
+      height: 70vh;
+  }
+  .content-button {
+      padding-top: 40%;
+      padding-right: 8%;
+  }
+  .beautiful-button {
+      font-size: 18px;
+      padding: 14px 28px;
+  }
+}
+
+/* 1200px - 1500px (larger desktops) */
+@media (min-width: 1201px) and (max-width: 1500px) {
+  .image-container {
+      height: 80vh;
+  }
+  .content-button {
+      padding-top: 35%;
+      padding-right: 10%;
+  }
+  .beautiful-button {
+      font-size: 18px;
+      padding: 14px 30px;
+  }
+}
+
+/* 1500px - 2000px (extra large desktops) */
+@media (min-width: 1501px) and (max-width: 2000px) {
+  .image-container {
+      height: 90vh;
+  }
+  .content-button {
+      padding-top: 30%;
+      padding-right: 12%;
+  }
+  .beautiful-button {
+      font-size: 20px;
+      padding: 16px 32px;
+  }
+}
+
+/* Fullscreen (larger than 2000px) */
+@media (min-width: 2001px) {
+  .image-container {
+      height: 100vh;
+  }
+  .content-button {
+      padding-top: 25%;
+      padding-right: 15%;
+  }
+  .beautiful-button {
+      font-size: 22px;
+      padding: 18px 36px;
+  }
+}

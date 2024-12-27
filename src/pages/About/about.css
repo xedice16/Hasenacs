@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.about-info-photo{
+    width: 100%;
+    height: 500px;
+    background-position: left;
+    background-image: url(https://elementor-kits-02.nicdark.com/perfume-wordpress-elementor-kit/wp-content/uploads/sites/4/2024/01/perfume-bottles-with-flowers.jpg);
+    /* border: 1px solid red; */
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+    margin-top: 20px;
+}
+.about-info-photo::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+}
+.contact-p{
+    top: 40%;
+    z-index: 2;
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    font-size: 48px;
+    left: 10%;
+}
+.about-text-1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.font-cormor{
+    
+    font-family: "Cormorant Garamond", serif;
+  }
+  .about-text-1{
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+  }
+  .about-text{
+    width: 45%;
+  }
+ 
+  .sparking-text{
+    color:#592B2A ;
+    letter-spacing: 2px;
+font-weight: 600;
+  }
+  .p-1-about-text{
+    font-size: 51px;
+    color: black;
+    font-weight: 600px;
+  }
+  p.join-us{
+    color: rgb(61, 61, 61);
+    font-size: 16px;
+  }
+  .get-more-info{
+    color: white;
+    background-color: #592B2A;
+    padding: 6px 8px;
+    border: 1px solid;
+    font-weight: bold;
+    border-color: #592B2A;
+    transition: 0.3s;
+  }
+  .get-more-info:hover{
+    color: #592B2A;
+    background-color: white;
+    border-color: #592B2A;
+  }
+  .about-1-img{
+    width: 50%;
+    
+  }
+  .about-1-img img{
+    width: 100%;
+  }
